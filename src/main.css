@@ -476,13 +476,14 @@ body {
   margin-top: 3.5em;
 }
 .bg_black {
-  position: absolute;
-  bottom: -1.5em;
-  left: 3em;
   background: #151922;
   z-index: 200;
   font-size: 1.1em;
   padding: 0.3em 1.5em;
+  position: relative;
+  z-index: 300;
+  color: #fff;
+  top: -2em;
 }
 .mensaje__footer {
   font-size: 12px;
